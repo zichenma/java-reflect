@@ -10,9 +10,13 @@ public class DemoClassGetMethodInfo {
 //        System.out.println(c2.getName());
 //        System.out.println(c2.getSimpleName()); // 不包含包名的类名
 
-        String s = "hello";
-        ClassUtil.printClassMessage(s);
+//        String s = "hello";
+//        ClassUtil.printClassMessage(s);
         Integer n1 = 1;
         ClassUtil.printClassMessage(n1);
+        System.out.println("==================================");
+        ClassUtil.printFieldMessage("hello");
+        System.out.println("==================================");
+        ClassUtil.printConMessage("hello");
     }
 }
